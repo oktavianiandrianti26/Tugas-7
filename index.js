@@ -9,6 +9,22 @@ switch (command) {
         app.makeFolder()
         break;
 
+        case "make-file":
+            app.makeFile()
+            break;
+    
+        case "read-file":
+            app.readFile()
+            break;
+    
+        case "read-folder":
+            app.readFolder()
+            break;
+    
+        case "ext-sorter":
+            app.extSorter()
+            break;    
+
     default:
         throw Error("Invalid command")
         break;
